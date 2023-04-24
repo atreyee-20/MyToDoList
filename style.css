@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #1a1c20;
+  }
+  
+  .container {
+    width: 100%;
+    height: 200px;
+    background: rgb(124, 124, 172);
+    padding: 10px 10px;
+  }
+  
+  .todo {
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    box-shadow: 0 6px 10px rgba(228, 122, 122, 0.15);
+    width: 100%;
+    max-width: 540px;
+  }
+  
+  .todo h1 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .enter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #989fe2;
+    padding-left: 50px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 20px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  button {
+    padding: 16px 50px;
+    background: #5957c9;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #000;
+    color: #989fe2;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 24px;
+    color: #333;
+    padding: 10px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+  ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+  }
+ 
+  ul li span {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 22px;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  ul li span:hover {
+    color: #e74c3c;
+  }
